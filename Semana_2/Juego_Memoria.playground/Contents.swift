@@ -1,6 +1,6 @@
 //Alejandro Trejo Huerta
-
-for n in 0...100 {
+var rango = 0...100
+for n in rango {
     if n % 5 == 0 {
         print("# \(n) Bingo!!!")
     }
